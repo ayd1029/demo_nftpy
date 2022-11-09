@@ -1,0 +1,31 @@
+{
+  "name": "io.nftpy",
+  "displayName": "KLAYSTAR",
+  "version": "1.0.0",
+  "description": "A sample Apache Cordova application that responds to the deviceready event.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ecosystem:cordova"
+  ],
+  "author": "Apache Cordova Team",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "cordova-android": "^10.1.1",
+    "cordova-plugin-ionic-webview": "^5.0.0",
+    "cordova-plugin-kakao-sdk": "^3.0.6"
+  },
+  "cordova": {
+    "platforms": [
+      "android"
+    ],
+    "plugins": {
+      "cordova-plugin-kakao-sdk": {
+        "KAKAO_APP_KEY": "3c4a7168fc529d6cf2712eaec043a328"
+      },
+      "cordova-plugin-ionic-webview": {}
+    }
+  }
+}

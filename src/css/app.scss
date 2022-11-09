@@ -1,0 +1,40 @@
+// app global css in SCSS form
+.page-default {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    word-break: break-all;
+}
+.page-1200 {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    word-break: break-all;
+}
+// .page-main {
+//     max-width: 1200px;
+//     margin-left: auto;
+//     margin-right: auto;
+// }
+.doc-heading {
+    color: $primary;
+    color: $grey-9;
+    // cursor: pointer;
+}
+
+.doc-h2 {
+    // border-bottom: 1px solid #ccc;
+    font-weight: 600;
+    line-height: 2rem;
+    // margin: 4rem 0 1.5rem;
+    padding: 0.5rem 0;
+}
+
+// .doc-h1 .q-icon, .doc-h2 {
+.doc-h1 .q-icon, .doc-h2 {
+    font-size: 2rem;
+}
+
+.btn {
+    width: 50%;
+}
